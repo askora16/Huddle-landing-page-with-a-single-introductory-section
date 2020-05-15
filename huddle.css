@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+body {
+    background: url(images/bg-mobile.svg) no-repeat;
+    background-size: 100vw;
+    background-color:  hsl(257, 40%, 49%);
+} 
+
+.wrapper {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.image {
+    width: 35vw;
+}
+
+.mockup {
+    width: 100%;
+} 
+
+.mock {
+    width: 100%;
+    padding: 30px 0px 30px 0px;
+}
+
+main {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    /* font-weight: 400; */
+    font-size: 16px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 1.8em;
+    font-weight: 700;
+    font-family: poppins;
+}
+
+span {
+    display: block;
+}
+
+.btn {
+    width: 45%;
+    height: 50px;
+    border-radius: 35px;
+    color: hsl(257, 40%, 49%);
+    font-size: 1.1em;
+    font-family: poppins;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: hsl(257, 40%, 49%);
+    color: white;
+}
+
+footer {
+    color: white;
+    width: 100%;
+    padding-top: 50px;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+}
+
+.fab {
+    padding: 10px 20px 10px 20px;
+    font-size: 1.7em;
+}
+
+.fab:hover {
+    font-size: 2em;
+}
+
+@media (min-width: 900px) {
+    body {
+        background: url(images/bg-desktop.svg) no-repeat center center fixed;
+        background-color:  hsl(257, 40%, 49%);
+    }
+    
+    .image {
+        width: 15vw;
+    }
+
+
+    .wrapper {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+   main {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .mockup {
+        height: 100%;
+    }
+
+    .mock {
+        padding-top: 80px;
+        height: 80%;
+        width: 100%;
+    }
+
+    .cont {
+        width: 40%;
+        padding-top: 50px;
+        padding-bottom: 100px;
+        text-align: left;
+    }
+
+    h1 {
+        font-weight: 700;
+        font-size: 2.2em;
+    }
+
+    .pad {
+        padding: 10px 10px 10px 10px;
+        height: 30%;
+    }
+
+    .btn {
+        margin-left: 20px;
+        margin-bottom: 60px;
+        height: 60px;;
+    }
+
+    .social {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .fab {
+        font-size: 2em;
+    }
+
+    footer {
+        padding-top: 30px;
+    }
+    
+
+    
+    
+
+
+}
