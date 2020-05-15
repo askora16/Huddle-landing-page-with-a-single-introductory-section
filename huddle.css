@@ -115,7 +115,7 @@ footer {
 
     .cont {
         width: 40%;
-        padding-top: 50px;
+        padding-top: 80px;
         padding-bottom: 100px;
         text-align: left;
     }
@@ -125,9 +125,10 @@ footer {
         font-size: 2.2em;
     }
 
+
     .pad {
         padding: 10px 10px 10px 10px;
-        height: 30%;
+        /* height: 30%; */
     }
 
     .btn {
@@ -149,6 +150,12 @@ footer {
         padding-top: 30px;
     }
     
+
+    
+    
+
+
+}
 
     
     
